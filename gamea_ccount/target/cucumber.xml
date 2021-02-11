@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.511">
+    <testcase classname="Unknown" name="Basic Registration" time="9.186">
+        <system-out><![CDATA[Given I am on "https://moneygaming.qa.gameaccount.com/".....................passed
+When I go to the Sign up page...............................................passed
+And I select "Mr"...........................................................passed
+And I enter "Opeyemi" and "Tubo"............................................passed
+And I Check the tickbox with text 'I accept the Terms and Conditions and certify that I am over the age of 18.'.passed
+And I submit the form by clicking the  JOIN NOW button......................passed
+Then text "This field is required" appears under the date of birth box......passed
+]]></system-out>
+    </testcase>
+</testsuite>
